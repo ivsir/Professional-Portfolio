@@ -1,0 +1,99 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #31363b;
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+nav a {
+    color: #b9c6ae;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+li a {
+    font-size: 125%;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.banner {
+    background-image: url(../banner-image.jpg);
+    max-width: 100%;
+    margin: 0px;
+    background-size: cover;
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.subtitle {
+    padding: 5px;
+    color: white;
+    background-color: black;
+    margin: 20px;
+    font-size: 10px;
+}
+
+.row{
+    display: flex;
+    padding: 1%;
+    background-color: #ffffff;
+    justify-content: space-between;
+}
+
+.title{
+
+    padding: 5px;
+    border-right: 3px solid;
+}
+
+.details{
+    margin: 10px;
+    padding: 5px;
+}
+
+/* .card { 
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid rgb(46, 106, 132);
+    margin: auto;
+    margin-bottom: 20px;
+    width: 33%;
+    min-height: 247px;
+} */
+
+.footerNav a {
+    color: #2875a1;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footerNav a:hover {
+    color: rgb(36, 31, 31);
+}
+
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    main {
+        max-width: 1200px;
+    }
+}
