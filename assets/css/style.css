@@ -1,3 +1,4 @@
+/* header */
 header {
     display: flex;
     justify-content: space-between;
@@ -7,9 +8,9 @@ header {
     color: #fff;
 }
 
+/* nav bar */
 nav ul {
     display: flex;
-    justify-content: space-between;
     min-width: 300px;
 }
 
@@ -29,7 +30,7 @@ li a {
     margin: 5px;
 }
 
-
+/* banner */
 .banner {
     background-image: url(../banner-image.jpg);
     max-width: 100%;
@@ -49,34 +50,55 @@ li a {
     font-size: 10px;
 }
 
-.row{
+/* main contents */
+.row {
     display: flex;
     padding: 1%;
     background-color: #ffffff;
-    justify-content: space-between;
+    text-align: right;
 }
 
-.title{
-
+.title {
     padding: 5px;
     border-right: 3px solid;
+    min-width: 198px;
 }
 
-.details{
+.details {
     margin: 10px;
     padding: 5px;
 }
 
-/* .card { 
+.projects {
+    min-width: 100%
+}
+
+/* .big-card-wrapper {
+    width: 100%;
+} */
+
+.mainCard {
+    border: 5px solid rgb(46, 106, 132);
+    margin-bottom: 20px;
+    min-height: 247px;
+}
+
+.small-card-wrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.mini {
     border: 5px solid rgb(46, 106, 132);
     margin: auto;
     margin-bottom: 20px;
-    width: 33%;
+    min-width: 50%;
     min-height: 247px;
-} */
+    flex-grow: 1;
+}
 
+/* footer contents */
 .footerNav a {
     color: #2875a1;
     font-weight: bold;
@@ -87,7 +109,7 @@ li a {
     color: rgb(36, 31, 31);
 }
 
-
+/* media queries */
 @media screen and (max-width: 768px) {
     header {
         flex-direction: column;
