@@ -4,7 +4,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: #31363b;
+    background-color: #000000;
     color: #fff;
 }
 
@@ -15,7 +15,7 @@ nav ul {
 }
 
 nav a {
-    color: #b9c6ae;
+    color: #9e9e9e;
     font-weight: bold;
     text-decoration: none;
 }
@@ -50,18 +50,22 @@ li a {
     font-size: 10px;
 }
 
+main {
+    background-color: #adaeae;
+}
+
 /* main contents */
 .row {
     display: flex;
     padding: 1%;
-    background-color: #ffffff;
-    text-align: right;
+
 }
 
 .title {
     padding: 5px;
     border-right: 3px solid;
     min-width: 198px;
+    text-align: right;
 }
 
 .details {
@@ -75,10 +79,21 @@ li a {
 }
 
 .mainCard {
+    /* background-image: url(../banner-image.jpg); */
     position: relative;
     border: 5px solid rgb(46, 106, 132);
     min-height: 247px;
     padding: 5px;
+}
+
+.Horiseon {
+    background-image: url(../banner-image.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.Horiseon:hover {
+    opacity: 0.5;
 }
 
 .small-card-wrapper {
@@ -95,6 +110,7 @@ li a {
     width: 50%
 }
 
+
 .miniCard {
     border: 5px solid rgb(46, 106, 132);
     margin: auto;
@@ -109,6 +125,7 @@ li a {
 .cardHeader {
     text-align: left;
     background-color: rgb(46, 106, 132);
+    padding: 4px;
     margin-left: -6px;
     position: absolute;
     bottom: 16px;
@@ -127,6 +144,10 @@ li a {
 
 /* media queries */
 @media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
     .mini-inner {
         width: 100%;
     }
