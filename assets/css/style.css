@@ -50,6 +50,12 @@ li a {
     font-size: 10px;
 }
 
+img {
+    width: 33%;
+    padding: 5px;
+    background-color: black;
+
+}
 main {
     background-color: #adaeae;
 }
@@ -81,19 +87,19 @@ main {
 .mainCard {
     /* background-image: url(../banner-image.jpg); */
     position: relative;
-    border: 5px solid rgb(46, 106, 132);
+    border: 5px solid rgb(4, 8, 9);
     min-height: 247px;
     padding: 5px;
 }
 
-.Horiseon {
-    background-image: url(../banner-image.jpg);
+#card1{
+    background-image: url(../IMG_2458.jpg);
     background-size: cover;
     position: relative;
 }
 
-.Horiseon:hover {
-    opacity: 0.5;
+.mainCard:hover {
+    opacity: 0.3;
 }
 
 .small-card-wrapper {
@@ -112,7 +118,7 @@ main {
 
 
 .miniCard {
-    border: 5px solid rgb(46, 106, 132);
+    border: 5px solid rgb(4, 8, 9);
     margin: auto;
     margin-bottom: 20px;
     min-width: 50%;
@@ -122,9 +128,33 @@ main {
     position: relative;
 }
 
+.miniCard:hover {
+    opacity: 0.3;
+}
+
+#card2 {
+    background-image:  url(../IMG_2459.JPG);
+    background-size: cover;
+}
+
+#card3 {
+    background-image: url(../IMG_1210.JPEG);
+    background-size: cover;
+}
+
+#card4 {
+    background-image: url(../IMG_7982.jpg);
+    background-size: cover;
+}
+
+#card5 {
+background-image: url(../IMG_2456.JPG);
+background-size: cover;
+}
 .cardHeader {
     text-align: left;
-    background-color: rgb(46, 106, 132);
+    color:azure;
+    background-color: rgb(4, 8, 9);
     padding: 4px;
     margin-left: -6px;
     position: absolute;
