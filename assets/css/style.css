@@ -65,6 +65,7 @@ li a {
 }
 
 .details {
+    width: 100%;
     margin: 10px;
     padding: 5px;
 }
@@ -74,9 +75,8 @@ li a {
 }
 
 .mainCard {
-    /* position: relative; */
+    position: relative;
     border: 5px solid rgb(46, 106, 132);
-    /* margin-bottom: 20px; */
     min-height: 247px;
     padding: 5px;
 }
@@ -103,11 +103,15 @@ li a {
     min-height: 247px;
     padding: 5px;
     margin: 16px;
+    position: relative;
 }
 
 .cardHeader {
-    /* position: absolute; */
-
+    text-align: left;
+    background-color: rgb(46, 106, 132);
+    margin-left: -6px;
+    position: absolute;
+    bottom: 16px;
 }
 
 /* footer contents */
