@@ -8,13 +8,13 @@ I was assigned a project in which I had to create a Professional Portfolio using
     <ol>
         <li><a href="#How to Use this Project">How to Use this Project</a></li>
         <li><a href="#Credits">Credits</a></li>
-        <li><a href="#License">License</a></li>
         <li><a href="#Contributors">Contributors</a></li>
     </ol>
 </nav>
 
 ## How to Use this Project
-<a href="">This is the link to my WebPage</a>
+<a href="https://ivsir.github.io/Professional-Portfolio/">This is the link to my WebPage</a>
 <img src="assets/Professional-Portfolio-Screenshot.png">
 
-## License
+## Contributors
+Risvi Tareq
