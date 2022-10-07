@@ -7,7 +7,6 @@ I was assigned a project in which I had to create a Professional Portfolio using
 <nav>
     <ol>
         <li><a href="#How to Use this Project">How to Use this Project</a></li>
-        <li><a href="#Credits">Credits</a></li>
         <li><a href="#Contributors">Contributors</a></li>
     </ol>
 </nav>
