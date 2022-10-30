@@ -22,6 +22,10 @@
   h6 {
     font-size: 200%;
   }
+
+  em {
+    color: rgb(39, 31, 183);
+  }
   
   input,
   select,

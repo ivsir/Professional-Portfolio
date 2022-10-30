@@ -30,6 +30,9 @@ li a {
     margin: 5px;
 }
 
+p {
+    font-size: larger;
+}
 /* banner */
 .banner {
     background-image: url(../banner-image.jpg);
@@ -58,6 +61,7 @@ img {
     width: 33%;
     padding: 5px;
     background-color: black;
+    margin-bottom: 20px;
 }
 
 /* main contents */
@@ -90,7 +94,6 @@ img {
 
 .mainCard {
     /* background-image: url(../banner-image.jpg); */
-    position: relative;
     border: 5px solid rgb(4, 8, 9);
     min-height: 247px;
     padding: 5px;
@@ -102,7 +105,7 @@ img {
     position: relative;
 }
 
-.mainCard:hover {
+.mainCard:hover{
     opacity: 0.3;
 }
 
