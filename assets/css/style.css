@@ -1,199 +1,196 @@
 /* header */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1%;
-    background-color: #000000;
-    color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #000000;
+  color: #fff;
 }
 
 /* nav bar */
 nav ul {
-    display: flex;
-    min-width: 300px;
+  display: flex;
+  min-width: 300px;
 }
 
 nav a {
-    color: #9e9e9e;
-    font-weight: bold;
-    text-decoration: none;
+  color: #9e9e9e;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 nav a:hover {
-    color: #fff;
+  color: #fff;
 }
 
 li a {
-    font-size: 125%;
-    padding: 5px;
-    margin: 5px;
+  font-size: 125%;
+  padding: 5px;
+  margin: 5px;
 }
 
 p {
-    font-size: larger;
+  font-size: larger;
 }
 /* banner */
 .banner {
-    background-image: url(../banner-image.jpg);
-    max-width: 100%;
-    margin: 0px;
-    background-size: cover;
-    height: 150px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+  background-image: url(../banner-image.jpg);
+  max-width: 100%;
+  margin: 0px;
+  background-size: cover;
+  height: 150px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .subtitle {
-    padding: 5px;
-    color: white;
-    background-color: black;
-    margin: 20px;
-    font-size: 10px;
+  padding: 5px;
+  color: white;
+  background-color: black;
+  margin: 20px;
+  font-size: 10px;
 }
 
-main, footer{
-    background-color: #adaeae;
+main,
+footer {
+  background-color: #adaeae;
 }
 
 img {
-    width: 33%;
-    padding: 5px;
-    background-color: black;
-    margin-bottom: 20px;
+  width: 33%;
+  padding: 5px;
+  background-color: black;
+  margin-bottom: 20px;
 }
 
 /* main contents */
 .row {
-    display: flex;
-    padding: 1%;
-
+  display: flex;
+  padding: 1%;
 }
 
 .title {
-    padding: 5px;
-    border-right: 3px solid;
-    min-width: 198px;
-    text-align: right;
+  padding: 5px;
+  border-right: 3px solid;
+  min-width: 198px;
+  text-align: right;
 }
 
 .details {
-    width: 100%;
-    margin: 10px;
-    padding: 5px;
+  width: 100%;
+  margin: 10px;
+  padding: 5px;
 }
 
-#about-me-details{
-    margin-left: 26px;
+#about-me-details {
+  margin-left: 26px;
 }
 
 .projects {
-    min-width: 100%
+  min-width: 100%;
 }
 
 .mainCard {
-    /* background-image: url(../banner-image.jpg); */
-    border: 5px solid rgb(4, 8, 9);
-    min-height: 247px;
-    padding: 5px;
+  border: 5px solid rgb(4, 8, 9);
+  min-height: 247px;
+  padding: 5px;
 }
 
-#card1{
-    background-image: url(../IMG_2458.jpg);
-    background-size: cover;
-    position: relative;
+#card1 {
+  background-image: url(../wine.jpeg);
+  background-size: cover;
+  position: relative;
 }
 
-.mainCard:hover{
-    opacity: 0.3;
+.mainCard:hover {
+  opacity: 0.3;
 }
 
 .small-card-wrapper {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .main-card-wrapper {
-    padding: 5px;
-    margin: 11px;
+  padding: 5px;
+  margin: 11px;
 }
 
 .mini-inner {
-    width: 50%
+  width: 50%;
 }
 
-
 .miniCard {
-    border: 5px solid rgb(4, 8, 9);
-    margin: auto;
-    margin-bottom: 20px;
-    min-width: 50%;
-    min-height: 247px;
-    padding: 5px;
-    margin: 16px;
-    position: relative;
+  border: 5px solid rgb(4, 8, 9);
+  margin: auto;
+  margin-bottom: 20px;
+  min-width: 50%;
+  min-height: 247px;
+  padding: 5px;
+  margin: 16px;
+  position: relative;
 }
 
 .miniCard:hover {
-    opacity: 0.3;
+  opacity: 0.3;
 }
 
 #card2 {
-    background-image:  url(../IMG_2459.JPG);
-    background-size: cover;
+  background-image: url(../privatecompany.jpeg);
+  background-size: cover;
 }
 
 #card3 {
-    background-image: url(../IMG_1210.JPEG);
-    background-size: cover;
+  background-image: url(../Stift-Admont-Austria.jpeg);
+  background-size: cover;
 }
 
 #card4 {
-    background-image: url(../IMG_7982.jpg);
-    background-size: cover;
+  background-image: url(../four-seasons.jpeg);
+  background-size: cover;
 }
 
 #card5 {
-background-image: url(../IMG_2456.JPG);
-background-size: cover;
+  background-image: url(../Scribe-lead.jpeg);
+  background-size: cover;
 }
+
 .cardHeader {
-    text-align: left;
-    color:azure;
-    background-color: rgb(4, 8, 9);
-    padding: 4px;
-    margin-left: -6px;
-    position: absolute;
-    bottom: 16px;
+  text-align: left;
+  color: azure;
+  background-color: rgb(4, 8, 9);
+  padding: 4px;
+  margin-left: -6px;
+  position: absolute;
+  bottom: 16px;
 }
 
 /* footer contents */
 .footerNav a {
-    color: #2875a1;
-    font-weight: bold;
-    text-decoration: none;
+  color: #2875a1;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .footerNav a:hover {
-    color: rgb(36, 31, 31);
+  color: rgb(36, 31, 31);
 }
 
 /* media queries */
 @media screen and (max-width: 768px) {
-    header {
-        flex-direction: column;
-    }
+  header {
+    flex-direction: column;
+  }
 
-    .mini-inner {
-        width: 100%;
-    }
+  .mini-inner {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .mini-inner {
-        width: 50%;
-    }
-
-
+  .mini-inner {
+    width: 50%;
+  }
 }

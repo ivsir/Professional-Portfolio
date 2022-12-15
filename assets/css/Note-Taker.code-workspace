@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../Note-Taker"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Professional-Portfolio"
+	}
+}
