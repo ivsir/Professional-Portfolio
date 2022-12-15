@@ -13,7 +13,7 @@ I was assigned a project in which I had to create a Professional Portfolio using
 
 ## How to Use this Project
 <a href="https://ivsir.github.io/Professional-Portfolio/">This is the link to my WebPage</a>
-<img src="assets/Professional-Portfolio-Screenshot.png">
+<img src="assets/screenshot of page.jpeg">
 
 ## Contributors
 Risvi Tareq
